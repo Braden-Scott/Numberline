@@ -1,5 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Line newLine = new Line(21);
+        newLine.print();
+
     }
 }
